@@ -1,0 +1,38 @@
+form{
+    border: 5px solid black;
+    text-align: center;
+    width: fit-content;
+    padding: 2em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textbox{
+    padding: 0.5em 2em;
+    font-size: large;
+    height:1.5em;
+    text-align: center;
+}
+
+#degree{
+    margin-top: 0.5em;
+    padding: 0.3em 1.5em;
+    font-size: large;
+}
+
+#click{
+    margin-top: 0.5em;
+    font-size: large;
+    padding: 0.3em 1.6em;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
