@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(105deg, #0dcee7, #d610c6);
+    padding-top: 50px;
+}
+
+/* Form */
+
+.weatherform{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.cityinput{
+    padding: 12px 20px;
+    width: 280px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Weather Card */
+
+.card{
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.displaycity{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.displaytemp{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.displayhumidity,
+.displaydes{
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.weatheremoji{
+    font-size: 5rem;
+    margin: 15px 0;
+}
+
+.displayerror{
+    margin-top: 15px;
+    color: #ffdddd;
+    font-weight: bold;}
+
+/* Mobile */
+
+@media(max-width: 500px){
+
+    .weatherform{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cityinput{
+        width: 90%;
+    }
+
+    .card{
+        width: 90%;
+    }
+}

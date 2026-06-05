@@ -74,3 +74,6 @@ task1(() => {
     })
 })
 // now the functions are called in order
+
+
+//aync/wait 
