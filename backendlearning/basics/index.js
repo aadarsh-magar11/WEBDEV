@@ -41,3 +41,6 @@ app.get(     //middleware
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })
+
+
+//crud means create, read, update and delete 
