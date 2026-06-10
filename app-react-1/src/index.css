@@ -26,3 +26,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(96, 98, 98);
 }
+
+.button{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
