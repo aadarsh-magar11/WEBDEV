@@ -35,3 +35,24 @@
     border-radius: 10px;
     padding: 10px 20px;
 }
+
+.student{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    border: 2px solid black;
+    max-width: 250px;
+    margin: 20px 0px 20px 20px;
+}
+
+.student p{
+    margin: 0px;
+}
+
+.welcome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.notLoggedIn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
